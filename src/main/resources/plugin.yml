@@ -1,0 +1,15 @@
+name: RaskolCharters
+version: ${project.version}
+main: ru.raskol.charters.RaskolCharters
+api-version: '1.21'
+author: Baltimor
+description: Королевские грамоты - жалование из казны государства по воле короля.
+softdepend: [Vault, Towny]
+commands:
+  gramota:
+    description: Управление королевскими грамотами
+    usage: /gramota help
+permissions:
+  raskolcharters.admin:
+    description: Админ-команды грамот (обход проверки короля)
+    default: op
